@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+  color: #9c9c9c;
+  background-color: #000;
+}
+
+.ral-font {
+  font-family: "Raleway", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Container */
+
+.container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+}
+
+.header__inner {
+  display: flex;
+  justify-content: center;
+  background-color: #1b1b1b;
+  padding: 23px;
+  border-radius: 0.8rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.header__inner a {
+  margin-right: 70px;
+}
+
+/* Nav */
+
+.nav {
+}
+
+.nav__link {
+  text-decoration: none;
+  opacity: 0.8;
+
+  transition: opacity 0.1s linear;
+}
+
+.nav__link:hover {
+  opacity: 1;
+}
+
+.nav__link:visited {
+  text-decoration: none;
+  color: #9c9c9c;
+}
+
+.nav__link:link {
+  color: #9c9c9c;
+}
